@@ -22,7 +22,7 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  
+
 
   SystemChrome.setPreferredOrientations(
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
@@ -30,6 +30,7 @@ void main() async {
 
   runApp(const AppState());
 }
+
 
 void logOut() async {
   FirebaseService service = FirebaseService();
