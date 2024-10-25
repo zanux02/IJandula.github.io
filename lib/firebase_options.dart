@@ -64,6 +64,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '824098632084',
     projectId: 'tfg-ma',
     storageBucket: 'tfg-ma.appspot.com',
+    iosClientId: '824098632084-cf4sb3qt1rbamivoea1n48hjpe9r9bjp.apps.googleusercontent.com',
     iosBundleId: 'com.example.iseneca',
   );
 
@@ -73,6 +74,7 @@ class DefaultFirebaseOptions {
     messagingSenderId: '824098632084',
     projectId: 'tfg-ma',
     storageBucket: 'tfg-ma.appspot.com',
+    iosClientId: '824098632084-cf4sb3qt1rbamivoea1n48hjpe9r9bjp.apps.googleusercontent.com',
     iosBundleId: 'com.example.iseneca',
   );
 
