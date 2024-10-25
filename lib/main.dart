@@ -23,7 +23,6 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-
   SystemChrome.setPreferredOrientations(
       [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
   logOut();
