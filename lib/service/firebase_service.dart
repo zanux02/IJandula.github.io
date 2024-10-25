@@ -9,7 +9,7 @@ class FirebaseService {
   final GoogleSignIn _googleSignIn = kIsWeb
       ? GoogleSignIn(
           clientId:
-              '364563782587-rseg8814nksg9n497rijuj76ulllnt9b.apps.googleusercontent.com')
+              '824098632084-8ggq7k8d9s4h927nfgrqvtms6vrnjvig.apps.googleusercontent.com')
       : GoogleSignIn();
 
   Future<String?> signInWithGoogle() async {
